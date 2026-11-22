@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Lucas Ling – Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucas Ling Wei Jun | Software Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Lucas Ling Wei Jun, Computer Science student at SIT-DigiPen.">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Lucas Ling Wei Jun</h1>
-    <p>Portfolio coming soon.</p>
+    <header>
+      <div class="wrap">
+        <h1>Lucas Ling Wei Jun</h1>
+        <p class="tagline">Computer Science student at the Singapore Institute of Technology (SIT) with DigiPen, graduating 2028.</p>
+        <ul class="links">
+          <li><a href="mailto:lucasling88@gmail.com">lucasling88@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/lucasling">LinkedIn</a></li>
+          <li><a href="https://github.com/LucasLingWJ">GitHub</a></li>
+        </ul>
+      </div>
+    </header>
+    <nav aria-label="Sections">
+      <div class="wrap">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  <main>
+    <section id="work">
+      <div class="wrap">
+        <h2>Selected work</h2>
+
+        <article class="case">
+          <h3>Tilt Tilt Boom</h3>
+          <p class="meta">Team game project (GAM200) · SIT / DigiPen · 2025-2026 · Team of 8</p>
+          <ul class="tags"><li>C++</li><li>Custom engine</li><li>Editor tools</li><li>UI</li></ul>
+          <dl>
+            <dt>Problem</dt>
+            <dd>Our team of 8 built a game on our own C++ engine. Without one, placing and debugging objects meant editing values by hand.</dd>
+            <dt>What I owned</dt>
+            <dd>The engine's editor tools (move, rotate and scale gizmos) for placing and debugging objects visually, and the in-game settings UI (audio volume and sensitivity sliders) that updates gameplay settings in real time.</dd>
+            <dt>Constraint</dt>
+            <dt>Result</dt>
+            <dd>The tools and settings UI shipped in the final game, alongside testing and bug fixes across team builds.</dd>
+          </dl>
+          <p class="more"><a href="https://games.digipen.edu/games/tilt-tilt-boom">View the game on DigiPen Games →</a></p>
+        </article>
+
+        <article class="case">
+          <h3>Excel-to-Web Automation Bot</h3>
+          <p class="meta">RPA Developer Intern · UTAC Manufacturing Services · Sep 2021 – Feb 2022</p>
+          <ul class="tags"><li>UiPath Studio</li><li>VB.NET</li><li>Robotic Process Automation (RPA)</li><li>Excel</li></ul>
+          <dl>
+            <dt>Problem</dt>
+            <dd>Staff copied data from Excel spreadsheets into web portals by hand, which was repetitive work.</dd>
+            <dt>What I owned</dt>
+            <dd>I built a Robotic Process Automation (RPA) bot in UiPath Studio, using VB.NET, that extracted the data from the spreadsheets and entered it into the web portals automatically.</dd>
+            <dt>What I tested, what failed, what I changed</dt>
+            <dd>I tested the bot with the business users who would rely on it and troubleshot issues before handover.</dd>
+            <dt>Result</dt>
+            <dd>The bot was handed over to the business users.</dd>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div><h3>Languages</h3><p>C#, C++, C, Java, JavaScript, Visual Basic (VB.NET)</p></div>
+          <div><h3>Automation</h3><p>UiPath Studio (Robotic Process Automation)</p></div>
+          <div><h3>Web &amp; data</h3><p>HTML, CSS, PHP, Node.js, SQL, MongoDB</p></div>
+          <div><h3>Tools</h3><p>Git, GitHub, Unreal Engine, Flutter, Figma</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <h2>Contact</h2>
+        <p>I'm looking for a software development internship for my Integrated Work Study Programme (IWSP), especially in .NET, automation or web development. The best way to reach me is by email at <a href="mailto:lucasling88@gmail.com">lucasling88@gmail.com</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year">2026</span> Lucas Ling Wei Jun</div>
+  </footer>
+
+  <script src="script.js" defer></script>
   </body>
 </html>
